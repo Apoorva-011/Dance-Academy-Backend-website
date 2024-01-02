@@ -1,0 +1,107 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+#logo
+{     height: 40px;
+    display: flex;
+    margin: 0px 22px;
+    filter: invert(1);
+  }
+#navbar
+{   font-family: 'Times New Roman', Times, serif;
+    background-color: black;
+    padding: 15px 20px;
+    font-size: larger;
+}
+#navbar li a
+{text-decoration: none;
+    padding: 25px 30px;
+color:white;
+font-weight: bold;}
+#navbar li a:hover
+{ font-weight: bold;
+    text-decoration: none;
+    padding: 25px 30px;
+color:red;
+}
+#navbar li
+{list-style: none;}
+#navbar ul
+{display: flex;
+flex-direction: row;
+align-items: center;
+}
+#introsection 
+{height: 350px;
+    color: white;
+    justify-content: center;
+    align-items: center;
+    font-size: xxx-large;
+ background: url('/static/dance.jpg') ;
+ background-size: 100% 350px;
+ background-repeat: no-repeat;
+display: flex;
+flex-direction: column;
+
+}
+#introsection div.small
+{font-size: large;
+   }
+#sponsorssection 
+{height: 300px;
+    background-color: bisque;
+}
+#sponsorssection h3{
+    text-align: center;
+    padding-top: 12px;
+    font-size: larger;
+}
+#missionssection
+{  height: 200px;
+    text-align: center;
+    padding-top: 12px;
+
+}
+#sponsors
+{height: 170px;
+margin: auto;
+    }
+.spimage
+{
+    height: 80%;
+    margin: 30px;
+}
+
+#missionssection h5
+{padding: 6px;
+    font-size: larger;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;}
+
+.card
+{    width: 30%;
+    height: 150px;
+    display: inline-block;
+    margin: 12px;
+    border: 2px solid black;
+}
+.card h3
+  { text-align: center;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+  }
+#footer
+{height: 100px;
+background-color: black;
+display: flex;
+color: white;
+align-items: center;
+}
+.cardbox
+{ display: flex;
+align-items: center;
+justify-content: space-evenly;}
+.cardimg img
+{ height: inherit;}
+.cardimg
+  { height:75px;}
+
