@@ -1,0 +1,55 @@
+doctype html 
+html 
+   head 
+     title ADA
+     style 
+        include ../static/style.css
+   body 
+     nav#navbar       
+        ul
+          div#logo
+            img(src="../static/Img/logo.png")
+          li #[a(href="/") Home]
+          li #[a(href="/") About]
+          li #[a(href="/") Services]
+          li #[a(href="/") Class Info]
+
+     section#introsection 
+        div Welcome to Apoorvas dance academy
+        div.small Fall in love with moves
+
+     section#missionssection 
+        h5  Our Mission       
+        div.card 
+            h2 Dance perfection 
+            div.cardbox 
+               div.cardimg
+                 img(src="../static/Img/1.png")
+               div.cardcontent 
+                 p Best dance academy
+        div.card 
+            h2 Show your moves
+            div.cardbox 
+               div.cardimg
+                  img(src="../static/Img/2.png")
+               div.cardcontent 
+                 p Best dance academy
+
+        div.card 
+            h2 Expert Training
+            div.cardbox 
+               div.cardimg
+                  img(src="../static/Img/3.png")
+               div.cardcontent 
+                 p Best dance academy
+     section#sponsorssection 
+        h4  Our sponsors
+        div#sponsors
+            img(src="../static/Img/logo1.png", alt="sponsor",Class="spimage")
+            img(src="../static/Img/logo2.png", alt="sponsor",Class="spimage")
+            img(src="../static/Img/logo3.png", alt="sponsor",Class="spimage")
+            img(src="../static/Img/logo4.png", alt="sponsor",Class="spimage")
+     footer#footer 
+        | Copyright 2024 ADA
+     script 
+       include ../static/index.js
