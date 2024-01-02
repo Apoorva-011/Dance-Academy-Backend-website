@@ -10,6 +10,10 @@ app.get('/',(req,res)=>
 {   
     const params={}
     res.status(200).render('index.pug',params)})
+app.get('/contact',(req,res)=>
+    {   
+        const params={}
+        res.status(200).render('contact.pug',params)})
 
 app.listen(port,()=>{
         console.log(`application started on port ${port}`)
